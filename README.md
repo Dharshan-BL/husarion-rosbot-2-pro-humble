@@ -36,6 +36,12 @@ Creating your docker image:
 2) ```source scripts/create_udev_rules.sh```
 3) ```ros2 launch sllidar_ros2 view_sllidar_a3_launch.py serial_port:=/dev/ttyUSB0```
 
+----------------- ASTRA 3D camera -----------------------------------
+
+1) ```git clone https://github.com/orbbec/ros2_astra_camera.git```
+2) ```cd ~/ros2_ws/src/ros2_astra_camera/astra_camera/scripts
+sudo bash install.sh```
+3) ```sudo service udev restart```
 
 
 
