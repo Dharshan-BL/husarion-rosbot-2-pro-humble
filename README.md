@@ -16,6 +16,6 @@ Creating your docker image:
 5) ```mkdir husarion_ws/src -p```
 6) ```cd husarion_ws/src``` 
 7) ```git clone https://github.com/micro-ROS/micro-ROS-Agent.git```
-8) ```sudo apt update && rosdep update```
+8) ```sudo apt upgrade libfastcdr-dev```
 9) ```sudo apt upgrade ros-humble-fastcdr```
 10) ```git clone https://github.com/husarion/rosbot_ros.git```
