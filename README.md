@@ -24,3 +24,14 @@ Creating your docker image:
 13) ```echo "source /root/husarion_ws/install/local_setup.bash" >> ~/.bashrc```
 14) ```sudo apt upgrade ros-humble-fastcdr```
 15) ```git clone https://github.com/husarion/rosbot_ros.git```
+
+
+
+---- New attempt ---- 
+```docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:humble serial -D /dev/ttyS4  serial -b 576000```
+
+
+
+
+
+
