@@ -1,4 +1,4 @@
-# husarion-rosbot-2pro-humble
+# husarion/rosbot-2-pro-humble
 
 Creating your docker image:
 
