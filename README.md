@@ -21,6 +21,6 @@ Creating your docker image:
 10) ```git clone https://github.com/eProsima/Fast-CDR.git```
 11) ```cd ~/husarion_ws```
 12) ```colcon build --symlink-install```
-13) ```echo source /root/husarion_ws/install/local_setup.bash >> ~/.bashrc```
+13) ```echo "source /root/husarion_ws/install/local_setup.bash" >> ~/.bashrc```
 14) ```sudo apt upgrade ros-humble-fastcdr```
 15) ```git clone https://github.com/husarion/rosbot_ros.git```
