@@ -17,5 +17,10 @@ Creating your docker image:
 6) ```cd husarion_ws/src``` 
 7) ```git clone https://github.com/micro-ROS/micro-ROS-Agent.git```
 8) ```sudo apt upgrade libfastcdr-dev```
-9) ```sudo apt upgrade ros-humble-fastcdr```
-10) ```git clone https://github.com/husarion/rosbot_ros.git```
+9) ``` cd husarion_ws/src```
+10) ```git clone https://github.com/eProsima/Fast-CDR.git```
+11) ```cd ~/husarion_ws```
+12) ```colcon build --symlink-install```
+13) ```echo source /root/husarion_ws/install/local_setup.bash >> ~/.bashrc```
+14) ```sudo apt upgrade ros-humble-fastcdr```
+15) ```git clone https://github.com/husarion/rosbot_ros.git```
