@@ -41,7 +41,9 @@ Creating your docker image:
 1) ```git clone https://github.com/orbbec/ros2_astra_camera.git```
 2) ```cd ~/ros2_ws/src/ros2_astra_camera/astra_camera/scripts```
       ```sudo bash install.sh```
-3) ```sudo service udev restart```
+3) ```sudo service udev restart``` (if udevadm is not running: ```ps aux | grep udev```)
+4) ```sudo udevadm control --reload-rules && sudo udevadm trigger```
+
 
 
 
