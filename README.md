@@ -31,6 +31,13 @@ Creating your docker image:
 ```docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:humble serial -D /dev/ttyS4  serial -b 576000```
 
 
+---------------------- RPLIDAR A3 -----------------------------------
+1) ```git clone https://github.com/Slamtec/sllidar_ros2.git```
+2) ```source scripts/create_udev_rules.sh```
+3) ```ros2 launch sllidar_ros2 view_sllidar_a3_launch.py serial_port:=/dev/ttyUSB0```
+
+
+
 
 
 
