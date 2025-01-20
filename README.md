@@ -12,9 +12,10 @@ Creating your docker image:
     -e ROS_DOMAIN_ID=10 \
     my_rosbot_image
    ```
-4) ```mkdir husarion_ws/src -p```
-5) ```cd husarion_ws/src``` 
-6) ```git clone https://github.com/micro-ROS/micro-ROS-Agent.git```
-7) ```sudo apt update && rosdep update```
-8) ```sudo apt upgrade ros-humble-fastcdr```
-9) ```git clone https://github.com/husarion/rosbot_ros.git```
+4) ```docker commit <container_name> <new_image_name>
+5) ```mkdir husarion_ws/src -p```
+6) ```cd husarion_ws/src``` 
+7) ```git clone https://github.com/micro-ROS/micro-ROS-Agent.git```
+8) ```sudo apt update && rosdep update```
+9) ```sudo apt upgrade ros-humble-fastcdr```
+10) ```git clone https://github.com/husarion/rosbot_ros.git```
